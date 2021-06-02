@@ -1,6 +1,6 @@
 # DeScheduler
 
-This is an Android application that facilitates in selecting classes for an upcoming semester at DeSales.
+This is an Android application that facilitates in selecting classes for an upcoming semester at DeSales University.
 
 This project utilizes Java, Android Studio, and SQLite.
 
