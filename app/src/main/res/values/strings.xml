@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">DeScheduler</string>
+    <string name="new_schedule">New Schedule</string>
+    <string name="title_hint">Enter a schedule title</string>
+    <string name="schedule_title">Schedule Title</string>
+    <string name="details_hint">Enter schedule details</string>
+    <string name="schedule_details">Schedule details</string>
+    <string name="empty_schedule_prompt">There are no schedules. Use the \'+\' button to create one!</string>
+    <string name="empty_course_prompt">There are no courses. Use the \'+\' button to add one!</string>
+    <string name="create_schedule">Create Schedule</string>
+    <string name="new_course">New Course</string>
+    <string name="course_title_hint">Enter a course title</string>
+    <string name="course_title">Course Title</string>
+    <string name="details_hint_course">Enter course details</string>
+    <string name="course_details">Course details</string>
+    <string name="add_course">Add Course</string>
+    <string name="search">Search</string>
+    <string name="clear_search">Clear Search</string>
+    <string name="credits_title">Credits:</string>
+    <string name="start_date_title">Start Date:</string>
+    <string name="course_type_title">Type:</string>
+    <string name="end_date_title">End Date:</string>
+    <string name="meeting_info_title">Meeting Info:</string>
+    <string name="professor_title">Professor:</string>
+    <string name="notes_title">Notes:</string>
+    <string name="add_course_button_text">Add Course</string>
+    <string name="delete_course_button_text">Delete Course From Schedule</string>
+    <string name="tbd_text">TBD</string>
+    <string name="date_time_tbd">Date/Time TBD</string>
+    <string name="delete_schedule_toolbar">Delete Schedule</string>
+    <string name="delete_schedule_text">Delete Schedule</string>
+    <string name="options_schedule_text">Schedule Options</string>
+    <string name="advanced_search_text">Advanced Search</string>
+    <string name="course_id">Course ID</string>
+    <string name="course_id_hint">Enter a course ID</string>
+    <string name="meeting_days_title">Meeting Days</string>
+    <string name="monday_text">Monday</string>
+    <string name="tuesday_text">Tuesday</string>
+    <string name="wednesday_text">Wednesday</string>
+    <string name="thursday_text">Thursday</string>
+    <string name="friday_text">Friday</string>
+    <string name="saturday_text">Saturday</string>
+    <string name="time_text">Time:</string>
+    <string name="choose_time_text">Choose a Time</string>
+    <string name="search_professor_title">Professor</string>
+    <string name="professor_hint">Enter a professor</string>
+    <string name="search_text">Search</string>
+    <string name="none_selected_spinner">No Time Selected</string>
+    <string name="no_database_courses_prompt">No matching courses.</string>
+    <string name="major_text">Major</string>
+    <string name="choose_major_text">Choose a Major</string>
+    <string-array name="major_array">
+        <item>No Major Selected</item>
+        <item>Accounting</item>
+        <item>Biology</item>
+        <item>Chemistry</item>
+        <item>Criminal Justice</item>
+        <item>Communication</item>
+        <item>Computer Science</item>
+        <item>Dance</item>
+        <item>Economics</item>
+        <item>Education</item>
+        <item>Elementary Education</item>
+        <item>English</item>
+        <item>Exploratory Studies</item>
+        <item>Fine Arts</item>
+        <item>Finance</item>
+        <item>French</item>
+        <item>Health Communication</item>
+        <item>History</item>
+        <item>Homeland Security</item>
+        <item>Italian</item>
+        <item>Law and Society</item>
+        <item>Mathematics</item>
+        <item>Management</item>
+        <item>Marketing</item>
+        <item>Nursing</item>
+        <item>Physical Education</item>
+        <item>Physics</item>
+        <item>Philosophy</item>
+        <item>Political Science</item>
+        <item>Psychology</item>
+        <item>Sociology</item>
+        <item>Spanish</item>
+        <item>Sport Management</item>
+        <item>Sport and Exercise Science</item>
+        <item>Theology</item>
+        <item>Theatre</item>
+        <item>TV Film</item>
+        <item>World Cultures</item>
+    </string-array>
+    <string name="delete_text">Delete</string>
+    <string name="cancel_text">Cancel</string>
+    <string name="schedule_graphic_text">Display Schedule</string>
+    <string name="field_warning">Error. Must fill out at least one field.</string>
+</resources>

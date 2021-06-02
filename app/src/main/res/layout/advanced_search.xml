@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/course_id"/>
+
+    <EditText
+        android:id="@+id/course_id_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/course_id_hint"/>
+
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/course_title"/>
+
+    <EditText
+        android:id="@+id/course_title_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/course_title_hint"/>
+
+
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/major_text"
+        android:layout_marginBottom="10dp"/>
+
+    <Spinner
+        android:id="@+id/major_spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/choose_major_text"/>
+
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/meeting_days_title"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/monday_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/monday_text"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="45dp"
+            android:onClick="onCheckboxClicked"/>
+        <CheckBox
+            android:id="@+id/wednesday_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/wednesday_text"
+            android:layout_centerHorizontal="true"
+            android:onClick="onCheckboxClicked"/>
+
+        <CheckBox
+            android:id="@+id/friday_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/friday_text"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="40dp"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/tuesday_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tuesday_text"
+            android:onClick="onCheckboxClicked"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="45dp"/>
+
+        <CheckBox
+            android:id="@+id/thursday_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/thursday_text"
+            android:layout_centerHorizontal="true"
+            android:onClick="onCheckboxClicked"/>
+
+        <CheckBox
+            android:id="@+id/saturday_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/saturday_text"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="40dp"
+            android:onClick="onCheckboxClicked"/>
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="?android:listSeparatorTextViewStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:text="@string/time_text"
+            android:layout_marginBottom="5dp"/>
+
+        <Spinner
+            android:id="@+id/time_spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:prompt="@string/choose_time_text"/>
+    </LinearLayout>
+
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/search_professor_title"/>
+
+    <EditText
+        android:id="@+id/professor_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/professor_hint"/>
+
+    <Button
+        android:id="@+id/select_search_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/search_text"/>
+
+
+
+
+
+</LinearLayout>
